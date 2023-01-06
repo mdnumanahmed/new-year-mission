@@ -33,6 +33,10 @@ body{
 .sec-padding{
     padding: 70px 0;
 }
+.sec-title {
+    margin-bottom: 40px;
+    text-align: center;
+}
 h1, h2{
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
@@ -45,6 +49,10 @@ h1{
 h2{
     font-size: 45px;
     line-height: 58px;
+}
+h3{
+    font-size: 25px;
+    line-height: 38px;
 }
 a{
     text-decoration: none;
@@ -106,3 +114,25 @@ a{
     width: 18px;    
 }
 
+/* Plan Area CSS */
+.plan-items{
+    display: flex;
+    justify-content: space-around;
+}
+.plan-item{
+    width: 280px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(166, 186, 250, 0.596);
+    border-radius: 10px;
+    box-shadow: 4px 10px 20px #ddd;
+}
+.plan-item:hover{
+    
+    box-shadow: 4px 10px 30px rgb(116, 102, 102);
+}
+.plan-img img{
+    width: 100px;
+    height: 100px;
+}
