@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Work Sans', sans-serif;
@@ -24,10 +25,13 @@ body{
     margin-right: -15px;
     margin-left: -15px;
 }
-.col{
-    flex: 0 0 auto;
+.col-50{
+    flex: 0 0 50%;
     padding-left: 15px;
     padding-right: 15px;
+}
+.sec-padding{
+    padding: 70px 0;
 }
 h1, h2{
     font-family: 'Work Sans', sans-serif;
@@ -74,5 +78,31 @@ a{
 }
 .banner-desc{
     margin: 20px 0;
+}
+
+/* About Area CSS */
+.about-me-area{
+    background-color: rgba(163, 250, 231, 0.384); 
+}
+.about-content{
+    margin-top: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-desc{
+    margin: 20px 0;
+}
+.checklist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.checklist li{
+    margin-bottom: 15px;
+}
+.checklist img{
+    width: 18px;    
 }
 
