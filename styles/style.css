@@ -1,9 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -12,53 +13,64 @@ body{
 }
 
 /* Common CSS */
-.container{
+.container {
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
 }
-.col-50{
+
+.col-50 {
     flex: 0 0 50%;
     padding-left: 15px;
     padding-right: 15px;
 }
-.sec-padding{
+
+.sec-padding {
     padding: 70px 0;
 }
+
 .sec-title {
     margin-bottom: 40px;
     text-align: center;
 }
-h1, h2{
+
+h1,
+h2 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     color: #151414;
 }
-h1{
+
+h1 {
     font-size: 65px;
     line-height: 78px;
 }
-h2{
+
+h2 {
     font-size: 45px;
     line-height: 58px;
 }
-h3{
+
+h3 {
     font-size: 25px;
     line-height: 38px;
 }
-a{
+
+a {
     text-decoration: none;
     color: #010313;
 }
-.primary-btn{
+
+.primary-btn {
     padding: 10px 20px;
     border: 2px solid #010313;
     border-radius: 5px;
@@ -69,7 +81,7 @@ a{
 }
 
 /* Banner-Area CSS */
-.banner-area{
+.banner-area {
     background-image: url("../images/banner/banner2.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,45 +93,53 @@ a{
     align-items: center;
     text-align: right;
 }
-.banner-content{
+
+.banner-content {
     padding-left: 50%;
 }
-.banner-desc{
+
+.banner-desc {
     margin: 20px 0;
 }
 
 /* About Area CSS */
-.about-me-area{
-    background-color: rgba(163, 250, 231, 0.384); 
+.about-me-area {
+    background-color: rgba(163, 250, 231, 0.384);
 }
-.about-content{
+
+.about-content {
     margin-top: 50px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.about-desc{
+
+.about-desc {
     margin: 20px 0;
 }
+
 .checklist {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.checklist li{
+
+.checklist li {
     margin-bottom: 15px;
 }
-.checklist img{
-    width: 18px;    
+
+.checklist img {
+    width: 18px;
 }
 
 /* Plan Area CSS */
-.plan-items{
+.plan-items {
     display: flex;
     justify-content: space-around;
 }
-.plan-item{
+
+.plan-item {
     width: 280px;
     margin: 10px;
     padding: 20px;
@@ -128,11 +148,25 @@ a{
     border-radius: 10px;
     box-shadow: 4px 10px 20px #ddd;
 }
-.plan-item:hover{
-    
+
+.plan-item:hover {
     box-shadow: 4px 10px 30px rgb(116, 102, 102);
 }
-.plan-img img{
+
+.plan-img img {
     width: 100px;
     height: 100px;
+}
+
+/* CTA Area CSS */
+.cta-content {
+    padding: 40px 50% 40px 40px;
+    background: url("../images/watch.png"), linear-gradient(90deg, rgba(9,9,121,0.9612219887955182) 28%, rgba(231,237,238,0.3449754901960784) 75%);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: center;
+    border-radius: 5px;
+}
+.cta-content h2{
+    color: #fff;
 }
