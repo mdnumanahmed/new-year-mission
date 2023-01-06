@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #444343;
+}
+
+/* Common CSS */
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col{
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h1, h2{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: #151414;
+}
+h1{
+    font-size: 65px;
+    line-height: 78px;
+}
+h2{
+    font-size: 45px;
+    line-height: 58px;
+}
+a{
+    text-decoration: none;
+    color: #010313;
+}
+.primary-btn{
+    padding: 10px 20px;
+    border: 2px solid #010313;
+    border-radius: 5px;
+    background-color: #ddd;
+    font-size: 20px;
+    font-weight: 700;
+    color: #010313;
+}
+
